@@ -1,0 +1,9 @@
+model: #DONE
+handle the json -> loadExpenses, saveExpenses, addExpense,getTotalByCategory
+
+view:
+User input
+Console Output -> showMenu, getExpenseDetails, showExpenses, showSummary
+
+presenter:
+Connect everything (model and view)
