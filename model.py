@@ -15,10 +15,10 @@ def saveExpenses(expenses):
 
 def addExpense(expenses, category, amount):
     expenses.append({"category": category, "amount": amount})
-    savaeExpenses(expenses)
+    saveExpenses(expenses)
 
 def getTotalByCategory(expenses):
     totals = {}
     for e in expenses:
         totals[e["category"]] = totals.get(e["category"], 0) + e["amount"]
-    return[totals]
+    return totals

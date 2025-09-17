@@ -16,3 +16,6 @@ __pycache__/
 # OS-specific
 .DS_Store
 Thumbs.db
+
+# data from JSON file
+data.json
