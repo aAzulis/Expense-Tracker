@@ -13,7 +13,7 @@ def saveExpenses(expenses):
     with open(dataFile, 'w') as f:
         json.dump(expenses, f, indent=2)
 
-def addExpense(expenses, category, amnount):
+def addExpense(expenses, category, amount):
     expenses.append({"category": category, "amount": amount})
     savaeExpenses(expenses)
 
