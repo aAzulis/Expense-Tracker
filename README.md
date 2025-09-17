@@ -18,6 +18,7 @@ It allows you to **add expenses**, **view all expenses**, and **see a summary by
 ---
 
 ## 📂 Project Structure
+```
 expense-tracker/
 ├── images/ # Screenshots for README
 │ ├── preview.png
@@ -29,7 +30,7 @@ expense-tracker/
 ├── requirements.txt # Dependencies (minimal)
 ├── data.json # Expense storage (auto-generated)
 └── README.md # Project description
-
+```
 
 ---
 
