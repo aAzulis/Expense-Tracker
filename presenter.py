@@ -2,7 +2,7 @@ import model
 import view
 
 def main():
-    expenses = mode.loadExpenses()
+    expenses = model.loadExpenses()
 
     while True:
         choice = view.showMenu()
